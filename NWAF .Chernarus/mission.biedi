@@ -1,0 +1,221 @@
+class _prefix_0
+{
+	objectType="prefix";
+	class Arguments
+	{
+	};
+};
+class _vehicle_0
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4442.2031, 10496.233]";
+		TYPE="Land_Mil_ControlTower";
+		AZIMUT="-29.214039";
+		PARENT="";
+	};
+};
+class _vehicle_1
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4228.5654, 10510.799, -3.0517578e-005]";
+		TYPE="Land_a_stationhouse";
+		AZIMUT="-120.05052";
+		PARENT="";
+	};
+};
+class _vehicle_2
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4257.4028, 10446.955, -9.1552734e-005]";
+		TYPE="Land_Mil_Barracks_i";
+		AZIMUT="-30.461273";
+		PARENT="";
+	};
+};
+class _vehicle_3
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4186.8062, 10680.989, -0.00015258789]";
+		TYPE="Land_SS_hangar";
+		AZIMUT="60.400749";
+		PARENT="";
+	};
+};
+class _vehicle_4
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4245.9131, 10579.216, 0.00018310547]";
+		TYPE="Land_SS_hangar";
+		AZIMUT="59.695133";
+		PARENT="";
+	};
+};
+class _vehicle_6
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4475.2422, 10181.869, -0.00018310547]";
+		TYPE="Land_SS_hangar";
+		AZIMUT="59.782551";
+		PARENT="";
+	};
+};
+class _vehicle_7
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4519.4863, 10103.956, -9.1552734e-005]";
+		TYPE="Land_SS_hangar";
+		AZIMUT="59.926243";
+		PARENT="";
+	};
+};
+class _vehicle_8
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4566.145, 10024.074, -6.1035156e-005]";
+		TYPE="Land_SS_hangar";
+		AZIMUT="60.098351";
+		PARENT="";
+	};
+};
+class _vehicle_9
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4459.3291, 10582.537, -9.1552734e-005]";
+		TYPE="Land_SS_hangar";
+		AZIMUT="-30.308281";
+		PARENT="";
+	};
+};
+class _vehicle_10
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4750.6455, 10133.695, -3.0517578e-005]";
+		TYPE="Land_Hangar_2";
+		AZIMUT="149.93484";
+		PARENT="";
+	};
+};
+class _vehicle_11
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4703.3506, 10106.71, -6.1035156e-005]";
+		TYPE="Land_Hangar_2";
+		AZIMUT="-210.24965";
+		PARENT="";
+	};
+};
+class _vehicle_12
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4718.249, 10114.481, -0.00012207031]";
+		TYPE="Land_Ind_TankSmall";
+		AZIMUT="59.724987";
+		PARENT="";
+	};
+};
+class _vehicle_13
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4615.4229, 9905.9385, -9.1552734e-005]";
+		TYPE="Land_A_Office01";
+		AZIMUT="58.864399";
+		INIT="this addEventHandler [""HandleDamage"",{}]; this setVectorUp [0.0001,0.0001,1]";
+		PARENT="";
+	};
+};
+class _vehicle_15
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4969.6411, 9924.3496]";
+		TYPE="Land_A_Hospital";
+		AZIMUT="93.936043";
+		PARENT="";
+	};
+};
+class _vehicle_16
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4690.438, 9808.6445, -0.00030517578]";
+		TYPE="Land_SS_hangar";
+		AZIMUT="59.229275";
+		PARENT="";
+	};
+};
+class _vehicle_17
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4738.0083, 9725.709, -0.00015258789]";
+		TYPE="Land_SS_hangar";
+		AZIMUT="60.091084";
+		PARENT="";
+	};
+};
+class _center_0
+{
+	objectType="center";
+	class Arguments
+	{
+		SIDE="west";
+	};
+};
+class _group_0
+{
+	objectType="group";
+	class Arguments
+	{
+		CENTER="_center_0";
+	};
+};
+class _unit_1
+{
+	objectType="unit";
+	class Arguments
+	{
+		POSITION="[4821.3037, 9811.5635, -0.00018310547]";
+		GROUP="_group_0";
+		TYPE="BAF_Soldier_AA_W";
+		SKILL="0.60000002";
+		PLAYER="true";
+		PLAYABLE="true";
+		LEADER="true";
+	};
+};
+class _postfix_0
+{
+	objectType="postfix";
+	class Arguments
+	{
+	};
+};
